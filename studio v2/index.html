@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SYMPHONY AUDIO STUDIO : PATNA</title>
+    <link rel="shortcut icon" type="image/jpg" href="sass/images/logo.svg" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="sass/custom.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+
+    <div class="bg">
+      <nav class="navbar navbar-expand-lg bg-top-nav fixed-top" id="top-nav">
+        <div class="container-fluid">
+          <div class="navbar-brand">
+            symphony studio
+            <img src="sass/images/logo.svg" alt="" style="width: 2rem" />
+          </div>
+          <button
+            onclick="changeBg()"
+            class="navbar-toggler navbar-dark menu-btn ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link mx-4 active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link mx-4 dropdown-toggle"
+                  href="#services"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  services
+                </a>
+                <ul
+                  class="dropdown-menu bg-top-nav text-white text-center"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#recording"
+                      >voice recording</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#dubbing">voice dubbing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#direction"
+                      >music direction</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#mastering">mastering</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#production"
+                      >audio video production</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#promotion">promotion</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-4" href="#gallery">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-4" href="#reach-us">reach-us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="container-fluid banner d-flex flex-column justify-content-center text-center"
+        id="home"
+      >
+        <h2 class="display3">welcome to</h2>
+        <h1 class="display-1 fw-bolder brand" href="#">
+          <span>s</span>ymphony <span>s</span>tudio
+        </h1>
+        <p class="h5 fw-normal text-center px-4 mb-4 pt-3">
+          offering the best music to listeners worldwide
+        </p>
+        <div
+          class="social d-flex justify-content-evenly container-fluid my-5 pt-5"
+        >
+          <a
+            href="https://www.facebook.com/SymphonyDigitalAudioStudio"
+            target="_blank"
+            class="social1"
+            ><img src="sass/images/facebook1.svg" alt="" /> <br />
+            facebook</a
+          >
+          <!-- <a
+            href="https://www.youtube.com/channel/UC7CwR_uZuuIIrU2bBknt8rg"
+            target="_blank"
+            class="social2"
+            ><img src="sass/images/youtube1.svg" alt="" /> <br />
+            youtube</a -->
+          
+          <div class="dropdown dropend">
+            <a
+              class="btn text-white dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+            <img src="sass/images/youtube1.svg" alt="" /> <br />
+            youtube</a -->
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="https://www.youtube.com/channel/UC7CwR_uZuuIIrU2bBknt8rg" target="_blank">yash ranjay films</a></li>
+              <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCtfEvOMn0CCOBZZdClkkHig" target="_blank">yash ranjay bhakti</a></li>
+              
+            </ul>
+          </div>
+          <a
+            href="https://www.instagram.com/ranjaybabla/"
+            target="_blank"
+            class="social3"
+            ><img src="sass/images/instagram1.svg" alt="" /> <br />
+            instagram</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="sections">
+      <!-- about -->
+    <div
+    class="container-fluid section row justify-content-center align-items-center py-5 mt-3"
+    id="about"
+  >
+    <h3 class="h1 text-color text-center fw-bold my-4">about us</h3>
+    <div class="col-sm-10 sol-md-6 col-lg-4">
+      <p class="text-color1">
+        Symphony studio is the brainchild of musicians who understand
+        <br class="hidden-xs hidden-sm hidden-md" />that the best art
+        comesfrom the best environment.
+      </p>
+      <p class="text-color1">
+        They know that to make great music, you need great surroundings — a
+        combination of top-notch gear, comfortable work and lounge areas, a
+        relaxing setting, and knowledgeable, capable staff who can work with
+        artists of any level. A place without distractions, yet accessible,
+        where development is encouraged and prices aren’t prohibitive, but
+        quality is<br class="hidden-xs hidden-sm hidden-md" />never sacrificed
+        and clients are treated with respect.
+      </p>
+    </div>
+    <div class="col-sm-10 sol-md-6 col-lg-4">
+      <img src="sass/images/img16.jpeg" alt="" style="width: 100%" />
+    </div>
+  </div>
+
+  <!-- services -->
+  <div
+    class="container-fluid section text-center mt-5 pt-3 text-color1"
+    id="services"
+  >
+    <h3 class="h1 text-color fw-bold">our services</h3>
+    <div class="service-container row justify-content-center">
+      <div class="card col-sm-5 col-md-4 col-lg-3 col-10 m-1" id="recording">
+        <img src="sass/images/mic.jpg" class="card-img-top pt-2" />
+        <div class="card-body">
+          <h5 class="card-title text-color">voice recording</h5>
+          <p class="card-text">
+            Want to record voice over for a film, a commercial, audio book or
+            podcast? We’ve done all of the above, including political
+            campaigns
+          </p>
+        </div>
+      </div>
+      <div
+        class="card col-sm-5 col-md-4 col-lg-3 col-10 rounded m-1"
+        id="dubbing"
+      >
+        <img src="sass/images/dubbing.webp" class="card-img-top pt-2" />
+        <div class="card-body">
+          <h5 class="card-title text-color">voice dubbing</h5>
+          <p class="card-text">
+            We have a great collection of some of the finest microphones in
+            the world for the best sound quality.
+          </p>
+        </div>
+      </div>
+      <div class="card col-sm-5 col-md-4 col-lg-3 col-10 m-1" id="direction">
+        <img src="sass/images/direction.webp" class="card-img-top pt-2" />
+        <div class="card-body">
+          <h5 class="card-title text-color">music direction</h5>
+          <p class="card-text">
+            we have the some of the best music directors in the industry.
+          </p>
+        </div>
+      </div>
+      <div class="card col-sm-5 col-md-4 col-lg-3 col-10 m-1" id="mastering">
+        <img src="sass/images/master.webp" class="card-img-top pt-2" />
+        <div class="card-body">
+          <h5 class="card-title text-color">mastering</h5>
+          <p class="card-text">
+            We offer mixing and mastering at our Studio. We also have a
+            network of amazing professional mixers and mastering professionals
+            , who can achieve the exact mix and master your need.
+          </p>
+        </div>
+      </div>
+      <div class="card col-sm-5 col-md-4 col-lg-3 col-10 m-1" id="production">
+        <img src="sass/images/production.webp" class="card-img-top pt-2" />
+        <div class="card-body">
+          <h5 class="card-title text-color">audio and video production</h5>
+          <p class="card-text">
+            our studio offers complete audio video production soutions.
+          </p>
+        </div>
+      </div>
+      <div class="card col-sm-5 col-md-4 col-lg-3 col-10 m-1" id="promotion">
+        <img src="sass/images/promotion.webp" class="card-img-top pt-2" />
+        <div class="card-body">
+          <h5 class="card-title text-color">full pack promotion</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- gallery -->
+  <div class="container-fluid section py-5 mt-3 text-center" id="gallery">
+    <h3 class="h1 text-color fw-bold">gallery</h3>
+    <div class="row justify-content-center gallery-img">
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img1"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img2"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img3"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img4"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img5"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img6"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img7"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img8"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img9"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img10"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img11"></div>
+      <div class="col-sm-5 col-md-4 col-lg-3 col-10 m-2 rounded img12"></div>
+    </div>
+  </div>
+
+  <!-- reach-us -->
+
+  <div
+    class="container-fluid section text-center row footer mt-5 py-5 text-white"
+    id="reach-us"
+  >
+    <h3 class="h1 fw-bold mt-2">reach-us</h3>
+    <div class="footer1 col-sm-10 col-md-4 p-3">
+      <img src="sass/images/location.svg" style="width: 1.2rem" /> address
+      <br />
+      <br />
+      <span>
+        kathpul,near durga mandir,
+        <br class="hidden-xs hidden-sm hidden-md" />
+        south mandiri,patna,bihar 800001</span
+      >
+    </div>
+    <div class="footer2 col-sm-10 col-md-4 p-3">
+      <img src="sass/images/call.svg" style="width: 1.2rem" /> contact <br />
+      <br />
+      <span class="text-lowercase"
+        >+91 9334210778 <br />+91 8986333851 <br />
+        symphonystudio@gmail.com</span
+      >
+    </div>
+    <div class="footer3 col-sm-10 col-md-4 p-3">
+      <img src="sass/images/clock.svg" style="width: 1.2rem" /> working-hours
+      <br />
+      <br />
+      mon-fri: 10:00am to 10:00pm <br />
+      sat-sun: 10:00 am to 5:00pm
+    </div>
+
+    <div class="social d-flex justify-content-evenly container-fluid mt-3">
+      <a
+        href="https://www.facebook.com/SymphonyDigitalAudioStudio"
+        target="_blank"
+        class="social1"
+        ><img src="sass/images/facebook1.svg" alt="" /> <br />
+        facebook</a
+      >
+      <div class="dropdown dropend">
+          <a
+            class="btn text-white dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+          <img src="sass/images/youtube1.svg" alt="" /> <br />
+          youtube</a -->
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="https://www.youtube.com/channel/UC7CwR_uZuuIIrU2bBknt8rg" target="_blank">yash ranjay films</a></li>
+            <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCtfEvOMn0CCOBZZdClkkHig" target="_blank">yash ranjay bhakti</a></li>
+            
+          </ul>
+        </div>
+      <a
+        href="https://www.instagram.com/ranjaybabla/"
+        target="_blank"
+        class="social3"
+        ><img src="sass/images/instagram1.svg" alt="" /> <br />
+        instagram</a
+      >
+    </div>
+  </div>
+    </div>
+    <div class="text-white text-center bg-dark small">
+      © Copyright 2021 Symphony Digital Audio Studio
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

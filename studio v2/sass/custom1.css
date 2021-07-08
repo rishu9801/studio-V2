@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+.left {
+  background: #2980b9;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#ffffff), color-stop(#6dd5fa), color-stop(#2980b9), to(#300595));
+  background: linear-gradient(to left, #ffffff, #6dd5fa, #2980b9, #300595);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.right {
+  background: #2980b9;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(#6dd5fa), color-stop(#2980b9), to(#300595));
+  background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9, #300595);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.left,
+.right {
+  min-height: 100vh;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.card {
+  margin: 2rem 0.5rem;
+  background-color: transparent;
+  border: transparent;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=custom1.css.map */

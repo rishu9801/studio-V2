@@ -1,0 +1,219 @@
+body {
+  text-transform: capitalize;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-color {
+  color: #300595;
+}
+
+.text-color1 {
+  color: #3a3a3a;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.menu-btn {
+  border: 1px solid transparent;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background: url(images/menu.svg);
+  background-size: cover;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.bg-top-nav {
+  background-color: #300595;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #ffffff;
+  color: #300595;
+}
+
+.bg {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(111, 0, 255, 0.466)), color-stop(#300595ab), to(rgba(17, 8, 139, 0.644))), url(images/bg2.jpg);
+  background: linear-gradient(to right, rgba(111, 0, 255, 0.466), #300595ab, rgba(17, 8, 139, 0.644)), url(images/bg2.jpg);
+  background-position: center, top;
+  background-size: cover;
+}
+
+.banner {
+  padding-top: 20rem;
+  color: #ffffff;
+}
+
+.banner h1,
+.banner h2,
+.banner p {
+  text-shadow: 1px 3px 0 #3a3a3a, 1px 13px 5px #222222b7;
+}
+
+.social img {
+  width: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.btn:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.dropdown-menu {
+  background-color: #300595;
+  color: #fff;
+}
+
+.section {
+  -webkit-transition: all 0.75s;
+  transition: all 0.75s;
+}
+
+.hidden {
+  opacity: 0;
+  -webkit-transform: translateX(15rem);
+          transform: translateX(15rem);
+}
+
+.card {
+  border: 1px solid transparent;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.services1 {
+  background: url(images/mic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 19rem;
+}
+
+.services2 {
+  background: url(images/mic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 19rem;
+}
+
+.services3 {
+  background: url(images/mic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 19rem;
+}
+
+.services4 {
+  background: url(images/mic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 19rem;
+}
+
+.services5 {
+  background: url(images/mic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 19rem;
+}
+
+.services6 {
+  background: url(images/mic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 19rem;
+}
+
+.gallery-img div {
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.img1 {
+  background-image: url(images/img1.jpg);
+}
+
+.img2 {
+  background-image: url(images/img2.jpg);
+}
+
+.img3 {
+  background-image: url(images/img3.jpg);
+}
+
+.img4 {
+  background-image: url(images/img4.jpg);
+}
+
+.img5 {
+  background-image: url(images/img5.jpg);
+  background-position: initial;
+}
+
+.img6 {
+  background-image: url(images/img6.jpg);
+}
+
+.img7 {
+  background-image: url(images/img12.jpeg);
+}
+
+.img8 {
+  background-image: url(images/img13.jpeg);
+}
+
+.img9 {
+  background-image: url(images/img14.jpeg);
+}
+
+.img10 {
+  background-image: url(images/img15.jpeg);
+}
+
+.img11 {
+  background-image: url(images/img19.jpeg);
+}
+
+.img12 {
+  background-image: url(images/img17.jpeg);
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  background-color: #300595;
+}
+
+@media (max-width: 991px) {
+  .social {
+    font-size: 0.85rem;
+  }
+  .social img {
+    width: 1.5rem;
+  }
+  .banner {
+    padding-top: 15rem;
+  }
+}
+/*# sourceMappingURL=custom.css.map */
